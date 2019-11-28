@@ -1,0 +1,75 @@
+{
+  "debug": true,
+  "session": {
+    "key": "thevitaminecserum_user",
+    "time": 0
+  },
+  "cookie": {
+    "name": "thevitaminecserum_cookie",
+    "time": 7
+  },
+  "web_services": [
+    {
+      "name": "user",
+      "url_base_remote": "https://cserum-user.ddns.net",
+      "url_base_local": "http://localhost:8186",
+      "authorization": {
+        "url": "https://auth-server.ddns.net/oauth/token",
+        "username": "cserum_user",
+        "password": "plantpaxisgreat"
+      },
+      "api_token": "WRCdmach38E2*$%Ghdo@nf#cOBD4fd"
+    },
+    {
+      "name": "shoppingCart",
+      "url_base_remote": "https://cserum-cart.ddns.net",
+      "url_base_local": "http://localhost:8185",
+      "authorization": {
+        "url": "https://auth-server.ddns.net/oauth/token",
+        "username": "cors_man",
+        "password": "cors_is_enabled_good_luck"
+      },
+      "api_token": "WRCdmach38E2*$%Ghdo@nf#cOBD4fd"
+    },
+    {
+      "name": "payment",
+      "url_base_remote": "http://localhost/braintree-service/index.php",
+      "url_base_local": "http://localhost/site-builder/mock-services",
+      "authorization": {
+        "url": "localhost:8100/oauth/token",
+        "username": "guest_app",
+        "password": "secret"
+      },
+      "api_token": "WRCdmach38E2*$%Ghdo@nf#cOBD4fd"
+    },
+    {
+      "name": "inventory",
+      "url_base_remote": "https://cserum-inventory.ddns.net",
+      "url_base_local": "http://localhost/site-builder/mock-services",
+      "authorization": {
+        "url": "https://auth-server.ddns.net/oauth/token",
+        "username": "cserum_inventory",
+        "password": "smoothieisthebest"
+      },
+      "api_token": "WRCdmach38E2*$%Ghdo@nf#cOBD4fd"
+    },
+    {
+      "name": "analytics",
+      "url_base_remote": "https://cserum-analytics.ddns.net",
+      "url_base_local": "http://localhost/site-builder/mock-services",
+      "authorization": {
+        "url": "https://cserum-auth-server.herokuapp.com/oauth/token",
+        "username": "guest_app",
+        "password": "secret"
+      },
+      "api_token": "WRCdmach38E2*$%Ghdo@nf#cOBD4fd"
+    }
+  ],
+  "production": false,
+  "bower_url": "vendor",
+  "log_analytics": true,
+    "recaptcha": {
+      "secret": "6LcfYr8UAAAAAFEqqlNM7ARz0Rh8IDfjoEnFYbkU",
+      "score_pivot": 0.0
+    }
+}

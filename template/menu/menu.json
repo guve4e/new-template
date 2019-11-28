@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Home",
+    "id": "home",
+    "icon": "E871"
+  },
+  {
+    "title": "Help desk",
+    "id": "contact",
+    "icon": "E0B9"
+  }
+]

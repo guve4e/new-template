@@ -1,0 +1,31 @@
+{
+  "title": "Home",
+  "full_screen": false,
+  "body_class_style": "",
+  "styles": [
+    {
+      "rel": "stylesheet",
+      "type" : "",
+      "src": "",
+      "path": "assets/css/",
+      "name": "rating",
+      "media":"all",
+      "min": true
+    }
+  ],
+  "scripts": [
+    {
+      "src": "",
+      "path": "js/",
+      "name": "add_product",
+      "min": false
+    },
+    {
+      "src": "",
+      "path": "assets/js/pages/",
+      "name": "components_notifications",
+      "min": true
+    }
+  ],
+  "footer": "general-footer"
+}
